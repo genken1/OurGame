@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_remove_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="music"
+        android:textAllCaps="false"/>
+
+    <com.example.ourgame.CircularListView
+        android:layout_centerInParent="true"
+        android:id="@+id/my_circular_list"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/circle_background"
+        />
+</RelativeLayout>
